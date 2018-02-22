@@ -1,0 +1,1 @@
+export const headerColor = 'rgb(0, 0, 0)';
