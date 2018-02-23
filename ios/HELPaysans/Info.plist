@@ -35,11 +35,6 @@
 				<key>NSTemporaryExceptionAllowsInsecureHTTPLoads</key>
 				<true/>
 			</dict>
-			<key>localhost</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-			</dict>
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
@@ -58,8 +53,6 @@
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
 	</array>
-	
-	
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
