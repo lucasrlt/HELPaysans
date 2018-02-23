@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Base/RCTJavaScriptLoader.mm \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/JSBundleType.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Base/RCTMultipartStreamReader.h \
+  /Users/lucasrollet/Desktop/Projets/INSA/CDPaysans/node_modules/react-native/React/Base/RCTPerformanceLogger.h

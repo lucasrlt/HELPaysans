@@ -5,7 +5,6 @@ import reducers from '../reducers';
 import logger from 'redux-logger';
 import thunk from 'redux-thunk';
 
-// AsyncStorage.clear();
 const middleware = [];
 
 const store = createStore(

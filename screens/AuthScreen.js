@@ -24,9 +24,9 @@ class AuthScreen extends Component {
 		} else if (this.state.phone === '') {
 			Alert.alert('Hey Roger !', 'Tu as bien un numéro de téléphone, histoire qu\'on te contacte ?');
 		} else {
-			this.props.navigation.navigate('sos');
-			this.props.updateUserInfos(this.state.name, this.state.phone);
 			Keyboard.dismiss();
+			this.props.updateUserInfos(this.state.name, this.state.phone);
+			this.props.navigation.navigate('sos');
 		}
 	}
 

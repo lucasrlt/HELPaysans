@@ -30,8 +30,8 @@ class SettingsScreen extends Component {
 			Alert.alert('Hey Roger !', 'Tu as bien un numéro de téléphone, histoire qu\'on te contacte ?');
 		} else {
 			Alert.alert('C\'est ok !', 'On accepte ta nouvelle identité.');
-			this.props.updateUserInfos(this.state.name, this.state.phone);
 			Keyboard.dismiss();
+			this.props.updateUserInfos(this.state.name, this.state.phone);
 		}
 	}
 

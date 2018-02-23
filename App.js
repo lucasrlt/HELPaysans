@@ -4,7 +4,6 @@ import store from './store';
 import { StyleSheet, Text, View, AsyncStorage, Image, Platform} from 'react-native';
 import { TabNavigator, StackNavigator } from 'react-navigation';
 import { persistStore } from 'redux-persist';
-
 import AuthScreen from './screens/AuthScreen';
 import PlanningScreen from './screens/PlanningScreen';
 import SettingsScreen from './screens/SettingsScreen';
@@ -26,6 +25,13 @@ export default class App extends React.Component {
       persistStore(store, { storage: AsyncStorage, whitelist: ['sos', 'user'] }, () => {
         this.setState({ rehydrated: true });
       });
+  }
+
+  async componentDidMount() {
+    if(Platform.OS === 'android') {
+      let OneSignal = await require('react-native-onesignal');
+      OneSignal.configure({}); 
+    }
   }
 
   render() {
@@ -69,7 +75,7 @@ export default class App extends React.Component {
         swipeEnabled:false,
         animationEnabled: Platform.OS !== 'android',
       },
-      lazy: false,
+      lazy: Platform.OS === 'android',
     });
 
     if (!this.state.rehydrated) {
