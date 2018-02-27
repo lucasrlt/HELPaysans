@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { View, Text, KeyboardAvoidingView, Image, Keyboard, Alert } from 'react-native';
+import { View, Text, KeyboardAvoidingView, Image, Keyboard, Alert, TouchableOpacity } from 'react-native';
 import { connect } from 'react-redux';
 import { FormLabel, FormInput, Button, Icon } from 'react-native-elements';
 import { updateUserInfos } from '../actions';
@@ -28,6 +28,12 @@ class AuthScreen extends Component {
 			this.props.updateUserInfos(this.state.name, this.state.phone);
 			this.props.navigation.navigate('sos');
 		}
+	};
+
+	skip = () => {
+			Keyboard.dismiss();
+			this.props.updateUserInfos(this.state.name, this.state.phone);
+			this.props.navigation.navigate('sos');
 	}
 
 	render() {
@@ -64,6 +70,10 @@ class AuthScreen extends Component {
 						icon={<Icon name="rowing" color="white" size={15}/>}
 						title="Ok"
 					/>
+					<View style={{height: 10}} />
+					<TouchableOpacity onPress={this.skip} style={{alignItems: 'center'}}>
+						<Text style={{color: 'rgba(14, 122, 254, 1)', textAlign: 'center'}}>Passer cette étape</Text>
+					</TouchableOpacity>
 				</View>
 			</KeyboardAvoidingView>
 		);

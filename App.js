@@ -66,15 +66,17 @@ export default class App extends React.Component {
           },
           tabBarPosition: 'bottom',
           swipeEnabled: false,
-          animationEnabled: Platform.OS !== 'android',
+          animationEnabled: true,
           lazy: false,
         })},
     }, { 
       navigationOptions: {
         tabBarVisible: false,
         swipeEnabled:false,
-        animationEnabled: Platform.OS !== 'android',
+        animationEnabled: true,
+        lazy: false,
       },
+      animationEnabled: true,
       lazy: Platform.OS === 'android',
     });
 
